@@ -1,1 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Activity - Bootstrap Layout</title>
 
+  <!-- Bootstrap CSS (Quick Start CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+        rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="bg-light p-3">
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Main Container -->
+  <main class="container mt-4">
+
+    <!-- First Section -->
+    <section class="row mb-4">
+      <article class="col">
+        <h1>Making Your Web Pages Responsive</h1>
+        <p>Crystal Michelle Boswell</p>
+        <p>February 23, 2026</p>
+      </article>
+    </section>
+
+    <!-- Second Section -->
+    <section class="row">
+
+      <article class="col-md-4">
+        <h2>Viewport</h2>
+        <p>
+          A viewport is the visible area of a web page within a browser window. 
+          On mobile devices, the viewport varies depending on screen size and resolution. 
+          The viewport meta tag allows developers to control layout scaling and ensure proper responsive behavior.
+        </p>
+      </article>
+
+      <article class="col-md-4">
+        <h2>Flexbox</h2>
+        <p>
+          Flexbox is a one-dimensional layout model used to arrange elements in rows or columns. 
+          It provides flexible alignment, spacing, and sizing of items within a container, 
+          making it especially useful for responsive design.
+        </p>
+      </article>
+
+      <article class="col-md-4">
+        <h2>Grid</h2>
+        <p>
+          Grid layout is a two-dimensional layout system that allows content to be organized 
+          into rows and columns. CSS Grid enables precise placement, alignment, and control 
+          over complex page layouts.
+        </p>
+      </article>
+
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center mt-4 mb-4">
+    <p>&copy; 2026 Crystal Michelle Boswell</p>
+  </footer>
+
+  <!-- Bootstrap JS Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
